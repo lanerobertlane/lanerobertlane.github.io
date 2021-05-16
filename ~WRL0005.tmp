@@ -24,16 +24,16 @@ w\:* {behavior:url(#default#VML);}
  <o:DocumentProperties>
   <o:Author>Rob Lane</o:Author>
   <o:LastAuthor>Rob Lane</o:LastAuthor>
-  <o:Revision>7</o:Revision>
-  <o:TotalTime>208</o:TotalTime>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>193</o:TotalTime>
   <o:Created>2021-05-16T18:48:00Z</o:Created>
-  <o:LastSaved>2021-05-16T19:30:00Z</o:LastSaved>
+  <o:LastSaved>2021-05-16T19:15:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>1201</o:Words>
-  <o:Characters>6846</o:Characters>
-  <o:Lines>57</o:Lines>
-  <o:Paragraphs>16</o:Paragraphs>
-  <o:CharactersWithSpaces>8031</o:CharactersWithSpaces>
+  <o:Words>1158</o:Words>
+  <o:Characters>6601</o:Characters>
+  <o:Lines>55</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7744</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1764,33 +1764,7 @@ Home Assistant. <o:p></o:p></span></p>
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>By Robert
 Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
-yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
- o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
- stroked="f">
- <v:stroke joinstyle="miter"/>
- <v:formulas>
-  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-  <v:f eqn="sum @0 1 0"/>
-  <v:f eqn="sum 0 0 @1"/>
-  <v:f eqn="prod @2 1 2"/>
-  <v:f eqn="prod @3 21600 pixelWidth"/>
-  <v:f eqn="prod @3 21600 pixelHeight"/>
-  <v:f eqn="sum @0 0 1"/>
-  <v:f eqn="prod @6 1 2"/>
-  <v:f eqn="prod @7 21600 pixelWidth"/>
-  <v:f eqn="sum @8 21600 0"/>
-  <v:f eqn="prod @7 21600 pixelHeight"/>
-  <v:f eqn="sum @10 21600 0"/>
- </v:formulas>
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
- <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="_x0000_i1032" type="#_x0000_t75" style='width:731.25pt;
- height:411.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="index_files/image001.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img border=0 width=975 height=549
-src="index_files/image015.png" v:shapes="_x0000_i1032"><![endif]></span><span
-style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
 <w:Sdt SdtDocPart="t" DocPartType="Table of Contents" DocPartUnique="t"
  ID="-2076493359">
@@ -1824,7 +1798,7 @@ style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></p>
  style='mso-no-proof:yes'><o:p></o:p></span></span></p>
  <p class=MsoToc1 style='tab-stops:22.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086316">3 Video concept<span style='color:windowtext;
+ yes'><a href="#_Toc72086316">3 Video concept:<span style='color:windowtext;
  display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
  style='mso-tab-count:1 dotted'> </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1993,19 +1967,18 @@ Aim</span></a><span style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span>
 </div>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>In the short
-term, the aim is to control and take images from my telescope and DSLR from the
-comfort of my office. This includes monitoring conditions, slewing the scope,
-and viewing or scheduling a sequence of images. <o:p></o:p></span></p>
+term, to control and take images from my telescope and DSLR from the comfort of
+my office, including monitoring conditions, slewing, live viewing and
+scheduling a sequence of images. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>In the long
-term, the aim is to imitate the Automation of a robotic telescope such as The
-Open University PIRATE Telescope, which uses the ABOT dashboard.<o:p></o:p></span></p>
+term. to imitate the Automation of a robotic telescope such as The Open
+Universities PIRATE Telescope, which uses ABOT dashboard.<o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>This project
-should ideally be achieved using Open-Source Software and parts that I have
-lying around, <span class=SpellE>i.e</span> a minimal budget. Home Assistant
-already powers other areas of my home, and except for the networking gear, I
-have not brought any new equipment.<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>This should
+ideally be achieved using Open-Source Software and parts that I have lying
+around, <span class=SpellE>i.e</span> a minimal budget. Home Assistant already
+powers areas of my home.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
@@ -2018,7 +1991,7 @@ solid #595959 .5pt;mso-border-bottom-themecolor:text1;mso-border-bottom-themetin
 style='font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Segoe UI"'><span
 style='mso-list:Ignore'>3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-family:"Segoe UI",sans-serif'>Video
-concept</span></a><span style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></h1>
+concept:</span></a><span style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></h1>
 
 </div>
 
@@ -2033,12 +2006,10 @@ concept</span></a><span style='font-family:"Segoe UI",sans-serif'><o:p></o:p></s
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>The video
-shows me using the Home Assistant Dashboard to select M42 from the Sinbad
-database, and then the Telescope in the top left video window slews to its
-location. Then I capture an image (black image since the scope is in a closed
-shed due to weather conditions) and I view it in real time. The live view from
-the camera is also black due to the shed being closed and the cap being on the
-scope.<o:p></o:p></span></p>
+shows me selecting M42 from the Sinbad database, and then the Telescope in the
+top left video window slewing to its location. Then I capture an image (dummy
+image since the scope is in a closed shed due to weather conditions) and view
+it in real time. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
@@ -2165,33 +2136,32 @@ Container which stores my home assistant.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span class=SpellE><span style='font-family:"Segoe UI",sans-serif'>Lubuntu</span></span><span
 style='font-family:"Segoe UI",sans-serif'> 18.04 - A fork of <span
-class=SpellE>Lubuntu</span> for old and slow machines.<o:p></o:p></span></p>
+class=SpellE>Lubuntu</span> for old and slow machines<o:p></o:p></span></p>
 
 <p class=MsoNormal><span class=SpellE><span style='font-family:"Segoe UI",sans-serif'>Stellarium</span></span><span
 style='font-family:"Segoe UI",sans-serif'> v0.20.4 - Planetarium software which
-can control an ASCOM <span class=GramE>telescope, and</span> has a web server
-plugin.<o:p></o:p></span></p>
+can control an ASCOM telescope, and has a web server <span class=GramE>plugin</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span class=SpellE><span style='font-family:"Segoe UI",sans-serif'>Stellarium</span></span><span
 style='font-family:"Segoe UI",sans-serif'> Scope - <span class=SpellE>Stellarium</span>
-supports ASCOM natively now, this is a holdover from my previous set up.<o:p></o:p></span></p>
+supports ASCOM natively now, this is a holdover of my set up)<o:p></o:p></span></p>
 
 <p class=MsoNormal><span class=SpellE><span style='font-family:"Segoe UI",sans-serif'>SkyWatcher</span></span><span
 style='font-family:"Segoe UI",sans-serif'> <span class=SpellE>ScyScanPro</span>
 - The proprietary software which allows <span class=SpellE>WiFi</span>
-communication with my Telescope.<o:p></o:p></span></p>
+communication with my <span class=GramE>Telescope</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>ASCOM
 platform 6 - Astronomy instrument control architectures, making
-vendor-independent plug and play control.<o:p></o:p></span></p>
+vendor-independent plug and play <span class=GramE>control</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span class=SpellE><span style='font-family:"Segoe UI",sans-serif'>DigiCamControl</span></span><span
 style='font-family:"Segoe UI",sans-serif'> - An innovative and easy to use
-solution for complex camera control.<o:p></o:p></span></p>
+solution for complex camera <span class=GramE>control</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span class=SpellE><span style='font-family:"Segoe UI",sans-serif'>VirtualHere</span></span><span
 style='font-family:"Segoe UI",sans-serif'> USB - allows USB devices to be used
-remotely over a network just as if they were locally connected.<o:p></o:p></span></p>
+remotely over a network just as if they were locally <span class=GramE>connected</span><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
@@ -2213,12 +2183,31 @@ assistant is the core to my whole set up. It allows me to create a dashboard
 which allows both the automation and manual control of the Astronomy Shed.<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
-yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2" o:spid="_x0000_i1031"
- type="#_x0000_t75" style='width:717pt;height:403.5pt;visibility:visible;
- mso-wrap-style:square'>
+yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_2" o:spid="_x0000_i1031" type="#_x0000_t75"
+ style='width:717pt;height:403.5pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image001.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=956 height=538
-src="index_files/image016.png" v:shapes="Picture_x0020_2"><![endif]></span><span
+src="index_files/image002.png" v:shapes="Picture_x0020_2"><![endif]></span><span
 style='font-family:"Segoe UI",sans-serif'><span
 style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
 
@@ -2235,7 +2224,7 @@ right, I have embedded the <span class=SpellE>Stellarium</span> and <span
 class=SpellE>DigiCamControl</span> web servers. These are the meat and potatoes
 of the dashboard. The <span class=SpellE>Stellarium</span> <span class=SpellE>websever</span>
 allows me to query an object in the <span class=SpellE>Simbad</span> database
-and slew to or track that object with the telescope. The <span class=SpellE>DigiCamControl</span>
+and slew to and track that object with the telescope. The <span class=SpellE>DigiCamControl</span>
 web server allows me to see a live image from the scope and capture an image. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>I cannot yet
@@ -2245,8 +2234,8 @@ so I will implement it at some point soon. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>Below that
 section there are 3 toggle switches which will power on the DSLR Camera and the
-Telescope mount (As well as the shed heater - If I go out to stargaze myself in
-winter, its useful to have this on half hour before I go out). <o:p></o:p></span></p>
+Telescope mount (As well as the shed heater - If I go out to stargaze myself,
+its useful to have this on half hour before I go out). <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>At the
 bottom right, are buttons which will Launch the <span class=SpellE>Stellarium</span>
@@ -2277,19 +2266,19 @@ yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3" o:spid="_x0000_i1030"
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image003.jpg" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=500 height=375
-src="index_files/image017.jpg" v:shapes="Picture_x0020_3"><![endif]></span><span
+src="index_files/image004.jpg" v:shapes="Picture_x0020_3"><![endif]></span><span
 style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></p>
 
-<p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>The guts of
-the <span class=SpellE>set up</span> is an old laptop running Home Assistant
+<p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>The <span
+class=GramE>guts</span> of the tech is an old laptop running Home Assistant
 inside a docker on a <span class=SpellE>Lubuntu</span> <span class=SpellE>linux</span>
 install. A 30m Ethernet cable from the house runs into the TP-Link mounted
 router on the wall. The 2 shielded power sockets are designed for outdoor <span
 class=GramE>use, and</span> have 2x 4-plug extenders to power everything. The
-first 4-plug powers the equipment which does not move, such as the laptop, <span
-class=GramE>router</span> and the wireless extender (which is used by the
+first 4-plug has <span class=GramE>powers</span> the equipment which does not
+move, such as the laptop and the wireless extender (which is used by the
 telescope and the smart plugs to connect to the network). The Network for
-everything else connects into the TP-Link mounted router. <o:p></o:p></span></p>
+everything else connect into the TP-Link mounted router. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
@@ -2299,7 +2288,7 @@ yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4" o:spid="_x0000_i1029"
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image005.jpg" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=490 height=654
-src="index_files/image018.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
+src="index_files/image006.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
 style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>The second
@@ -2313,17 +2302,17 @@ yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_5" o:spid="_x0000_i1028"
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image007.jpg" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=245 height=327
-src="index_files/image019.jpg" v:shapes="Picture_x0020_5"><![endif]><!--[if gte vml 1]><v:shape
+src="index_files/image008.jpg" v:shapes="Picture_x0020_5"><![endif]><!--[if gte vml 1]><v:shape
  id="Picture_x0020_6" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:243.75pt;
  height:182.25pt;rotation:90;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image009.jpg" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=243 height=325
-src="index_files/image020.jpg" v:shapes="Picture_x0020_6"><![endif]></span><span
+src="index_files/image010.jpg" v:shapes="Picture_x0020_6"><![endif]></span><span
 style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>Since I have
 designed this to be unmanned, the cables that run along the telescope have
-breakaways which will disconnect when there is stress on them. This will
+breakaways which will disconnect when there is stress on the cables. This will
 prevent damaging the cables and the telescope tipping over if they get tangled
 or pulled. <o:p></o:p></span></p>
 
@@ -2333,7 +2322,7 @@ yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_7" o:spid="_x0000_i1026"
  mso-wrap-style:square'>
  <v:imagedata src="index_files/image011.jpg" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=488 height=650
-src="index_files/image021.jpg" v:shapes="Picture_x0020_7"><![endif]></span><span
+src="index_files/image012.jpg" v:shapes="Picture_x0020_7"><![endif]></span><span
 style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>Above the
@@ -2349,7 +2338,7 @@ yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_8" o:spid="_x0000_i1025"
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="index_files/image013.jpg" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=491 height=655
-src="index_files/image022.jpg" v:shapes="Picture_x0020_8"><![endif]></span><span
+src="index_files/image014.jpg" v:shapes="Picture_x0020_8"><![endif]></span><span
 style='font-family:"Segoe UI",sans-serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>And <span
@@ -2378,7 +2367,7 @@ throughout the night. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>I would then
 also like to set up a weather station to <span class=GramE>more accurately get
-the weather details</span>.<o:p></o:p></span></p>
+the weather details</span>. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>I would also
 like to add an All-sky camera mounted to the roof of the shed, so I can <span
@@ -2396,8 +2385,8 @@ and wheel out the scope and start a pre-programmed sequence of images if the
 sky is clear. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>I think <span
-class=SpellE>its</span> pretty obvious why that is the last step of this crazy <span
-class=GramE>pipe-dream</span>. <o:p></o:p></span></p>
+class=SpellE>its</span> pretty obvious why that is the last step of this crazy
+pipe-dream. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
