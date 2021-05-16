@@ -18,20 +18,22 @@ o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<![endif]--><!--[if gte mso 9]><xml>
+<![endif]-->
+<title>Creating a Remote Observatory Using Home Assistant</title>
+<!--[if gte mso 9]><xml>
  <o:DocumentProperties>
   <o:Author>Rob Lane</o:Author>
   <o:LastAuthor>Rob Lane</o:LastAuthor>
-  <o:Revision>5</o:Revision>
-  <o:TotalTime>180</o:TotalTime>
-  <o:Created>2021-05-16T18:41:00Z</o:Created>
-  <o:LastSaved>2021-05-16T18:45:00Z</o:LastSaved>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>184</o:TotalTime>
+  <o:Created>2021-05-16T18:48:00Z</o:Created>
+  <o:LastSaved>2021-05-16T18:49:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
   <o:Words>1155</o:Words>
-  <o:Characters>6588</o:Characters>
+  <o:Characters>6590</o:Characters>
   <o:Lines>54</o:Lines>
   <o:Paragraphs>15</o:Paragraphs>
-  <o:CharactersWithSpaces>7728</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>7730</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -1725,8 +1727,12 @@ word-wrap:break-word'>
 
 <div class=WordSection1>
 
-<p class=MsoTitle><span style='font-family:"Segoe UI",sans-serif'>Creating an
-Automated ‘Backyard Astronomy Shed’ using Home Assistant. <o:p></o:p></span></p>
+<p class=MsoTitle><span style='font-family:"Segoe UI",sans-serif'>Creating an Automated
+</span><span style='font-family:"Segoe UI",sans-serif;color:#548235;mso-themecolor:
+accent6;mso-themeshade:191;mso-style-textfill-fill-color:#548235;mso-style-textfill-fill-themecolor:
+accent6;mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'><span style='color:windowtext'>Backyard Astronomy Shed </span></span><span
+style='font-family:"Segoe UI",sans-serif'>using Home Assistant. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Segoe UI",sans-serif'>By Robert
 Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p></span></p>
@@ -1750,9 +1756,9 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='mso-element:field-separator'></span></span><![endif]--><span
  style='font-family:"Segoe UI",sans-serif'><span class=MsoHyperlink><span
  style='mso-no-proof:yes'><a href="#_Toc72086315">2<span style='color:windowtext;
- text-decoration:none;text-underline:none'><span style='mso-tab-count:1'>     </span></span>Project
- Aim<span style='color:windowtext;display:none;mso-hide:screen;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1 dotted'>... </span></span><!--[if supportFields]><span
+ text-decoration:none;text-underline:none'> </span>Project Aim<span
+ style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+ text-underline:none'><span style='mso-tab-count:1 dotted'>... </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
  text-underline:none'><span style='mso-element:field-begin'></span></span><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1769,10 +1775,9 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='mso-no-proof:yes'><o:p></o:p></span></span></p>
  <p class=MsoToc1 style='tab-stops:22.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086316">3<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>     </span></span>Video
- concept:<span style='color:windowtext;display:none;mso-hide:screen;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1 dotted'> </span></span><!--[if supportFields]><span
+ yes'><a href="#_Toc72086316">3 Video concept:<span style='color:windowtext;
+ display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'> </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
  text-underline:none'><span style='mso-element:field-begin'></span></span><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1789,10 +1794,9 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc1 style='tab-stops:22.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086317">4<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>     </span></span>Hardware<span
- style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
- text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ yes'><a href="#_Toc72086317">4 Hardware<span style='color:windowtext;
+ display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
  text-underline:none'><span style='mso-element:field-begin'></span></span><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1809,8 +1813,7 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc2 style='tab-stops:44.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086318">4.1<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>      </span></span>Telescopes
+ yes'><a href="#_Toc72086318">4.1<span style='mso-spacerun:yes'>  </span>Telescopes
  and Cameras<span style='color:windowtext;display:none;mso-hide:screen;
  text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1829,8 +1832,7 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc2 style='tab-stops:44.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086319">4.2<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>      </span></span>Computing
+ yes'><a href="#_Toc72086319">4.2<span style='mso-spacerun:yes'>  </span>Computing
  and Networking<span style='color:windowtext;display:none;mso-hide:screen;
  text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>.. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1849,8 +1851,7 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc2 style='tab-stops:44.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086320">4.3<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>      </span></span>Environment
+ yes'><a href="#_Toc72086320">4.3<span style='mso-spacerun:yes'>  </span>Environment
  Monitoring<span style='color:windowtext;display:none;mso-hide:screen;
  text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>.. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1869,8 +1870,7 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc2 style='tab-stops:44.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086321">4.4<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>      </span></span>Cables<span
+ yes'><a href="#_Toc72086321">4.4<span style='mso-spacerun:yes'>  </span>Cables<span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
  text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1889,10 +1889,9 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc1 style='tab-stops:22.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086322">5<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>     </span></span>Software<span
- style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
- text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ yes'><a href="#_Toc72086322">5 Software<span style='color:windowtext;
+ display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
  text-underline:none'><span style='mso-element:field-begin'></span></span><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1909,10 +1908,9 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc1 style='tab-stops:22.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086323">6<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>     </span></span>The
- Dashboard<span style='color:windowtext;display:none;mso-hide:screen;
- text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ yes'><a href="#_Toc72086323">6 The Dashboard<span style='color:windowtext;
+ display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
  text-underline:none'><span style='mso-element:field-begin'></span></span><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1929,10 +1927,9 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc1 style='tab-stops:22.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086324">7<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>     </span></span>Behind
- the Scenes<span style='color:windowtext;display:none;mso-hide:screen;
- text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+ yes'><a href="#_Toc72086324">7 Behind the Scenes<span style='color:windowtext;
+ display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
  text-underline:none'><span style='mso-element:field-begin'></span></span><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
@@ -1949,10 +1946,9 @@ Lane. <a href="https://twitter.com/lanerobertlane">@lanerobertlane</a><o:p></o:p
  style='font-family:"Segoe UI",sans-serif;mso-no-proof:yes'><o:p></o:p></span></p>
  <p class=MsoToc1 style='tab-stops:22.0pt right dotted 559.4pt'><span
  class=MsoHyperlink><span style='font-family:"Segoe UI",sans-serif;mso-no-proof:
- yes'><a href="#_Toc72086325">8<span style='color:windowtext;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1'>     </span></span>To
- Do<span style='color:windowtext;display:none;mso-hide:screen;text-decoration:
- none;text-underline:none'><span style='mso-tab-count:1 dotted'>.. </span></span><!--[if supportFields]><span
+ yes'><a href="#_Toc72086325">8 To Do<span style='color:windowtext;display:
+ none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+ style='mso-tab-count:1 dotted'>.. </span></span><!--[if supportFields]><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
  text-underline:none'><span style='mso-element:field-begin'></span></span><span
  style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
